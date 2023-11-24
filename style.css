@@ -137,6 +137,11 @@ header nav .search i {
   font-size: 16px;
   transition: all ease 0.5s;
 }
+.buttoncontact{
+  text-decoration: none;
+  color: #fec86a;
+  font-size: 16px;
+}
 
 .intro button:hover {
   background-color: #fec86a;
