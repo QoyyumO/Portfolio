@@ -482,6 +482,9 @@ header nav .search i {
   margin-top: 7.5vh;
 }
 @media screen and (max-width: 400px) {
+  *{
+    overlay: hidden;
+  }
   body {
     padding: 0;
     margin: 0;
@@ -548,6 +551,7 @@ header nav .search i {
 
   .portfolio-cards {
     grid-template-columns: 100%;
+    margin-right: 30px;
   }
 
   .portfolio-card,
@@ -570,4 +574,7 @@ header nav .search i {
   .exp h2 {
     font-size: 24px;
   }
+  .lighter-div {
+  margin-right: 100px;
+}
 }
