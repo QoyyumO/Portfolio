@@ -25,7 +25,6 @@ header {
   background-repeat: no-repeat;
   width: 100vw;
 }
-
 header nav {
   display: flex;
   justify-content: space-between;
@@ -480,4 +479,180 @@ header nav .search i {
   display: flex;
   gap: 10px;
   margin-top: 7.5vh;
+}
+
+@media (max-width: 768px) {
+  
+  header {
+    height: 50vh;
+    padding: 3.6px 10px;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+  }
+
+  header nav .search {
+    display: none;
+  }
+  .landing {
+    display: flex;
+    height: 70vh;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .about {
+    height: 70vh;
+    width: 100vw;
+    margin-top: 25vh;
+    padding: 2px;
+    font-size: 20px;
+  }
+  
+  .socials {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10vh;
+  }
+  .skills {
+    margin-top: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12.5px 25px;
+  }
+  .cards {
+    margin-top: 50px;
+    margin-left: 37px;
+    gap: 3vh;
+  }
+  
+  .skill-card {
+    padding: 20px;
+    height: 40vw;
+    width: 40vw;
+  }
+
+  .portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 100px;
+}
+
+.portfolio h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #fbfbfb;
+  font-family: "Libre Baskerville", serif;
+}
+
+.portfolio-cards {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: auto auto auto;
+  margin-top: 50px;
+  margin-left: 30px;
+  gap: 2.5vh;
+}
+
+.portfolio-card {
+  height: 50vw;
+  width: 50vw;
+}
+
+.portfolio-card img {
+  height: 50vw;
+  width: 50vw;
+}
+
+.portfolio-card .overlay {
+  height: 50vw;
+  width: 50vw;
+  padding: 12px;
+}
+
+.portfolio-card .overlay h3 {
+  color: #fbfbfb;
+  font-size: 20px;
+}
+
+.portfolio-card .overlay p {
+  color: #fbfbfb;
+  font-size: 12px;
+  text-align: center;
+}
+
+.portfolio-card .overlay button {
+  height: 40px;
+  width: 96px;
+}
+
+.contact-me {
+  padding: 40px;
+  margin-top: 2vh;
+  margin-left: 20px;
+}
+.contact-me h1 {
+  font-size: 46px;
+  color: #fbfbfb;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+}
+
+.contact-card {
+  background-color: #fec86a;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  margin-top: 7.5vh;
+  font-size: 10px;
+}
+.experience h1 {
+  position: absolute;
+  color: #fbfbfb;
+  font-size: 56px;
+  font-family: "Libre Baskerville", serif;
+  transform: translate(-50%, -50%);
+  top: 5%;
+  left: 42%;
+}
+
+.lighter-div {
+  padding: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100vw;
+}
+
+.lighter-div .exp {
+  width: 100%;
+  margin: 0 auto;
+  height: 80vh;
+}
+
+.exp {
+  width: 100%;
+}
+
+.exp-desc h3 {
+  color: #fbfbfb;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.exp-desc p {
+  color: #fbfbfb;
+  font-size: 16px;
+  font-weight: 400;
+}
 }
