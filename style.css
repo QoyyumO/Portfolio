@@ -471,7 +471,10 @@ header nav .search i {
   display: flex;
   gap: 24px;
 }
-
+.contact-link{
+  text-decoration: none;
+  color : black;
+}
 .contact-card {
   background-color: #fec86a;
   padding: 10px;
