@@ -659,4 +659,12 @@ header nav .search i {
   font-size: 16px;
   font-weight: 400;
 }
+  .contact-card {
+  background-color: #fec86a;
+  padding: 5px;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  margin-top: 5vh;
+}
 }
